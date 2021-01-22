@@ -331,6 +331,10 @@ h6 {
   padding-bottom: 20px;
 }
 
+.column__btn {
+  margin-bottom: 20px;
+}
+
 .column__btn a {
   font-family: Bebas;
   font-size: 15px;
@@ -357,6 +361,87 @@ h6 {
   text-decoration: underline;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+.why {
+  padding: 100px 0px;
+  background-color: #c2c2c2;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: black;
+}
+
+.top P {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding-left: 10%;
+  font-size: 50px;
+  line-height: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.top img {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.colums {
+  padding: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.item__text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 15px;
+}
+
+.item__text :nth-child(1) {
+  font-family: AkzidenzGroteskBQ-BdCnd;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #000000;
+  padding-bottom: 40px;
+}
+
+.item__text p {
+  font-family: PTSans;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000000;
 }
 
 @media (max-width: 1182px) {
