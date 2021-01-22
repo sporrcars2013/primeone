@@ -58,18 +58,17 @@ letter-spacing: 0.74em;
       position: relative;
       display: flex;
       justify-content: center;
+      padding-top: 20px;
       
    }
 
    &__menu-logo {
          
-         
+      img{
       
-      img{width: 50px;
-      height: 50px;
-      border: 1px solid #000; position: absolute;
+      position: absolute;
       top: 0;
-      left: 45%;}
+      left: 38.5%;}
 
    }
 
