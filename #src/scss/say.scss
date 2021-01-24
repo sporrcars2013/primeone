@@ -1,0 +1,67 @@
+.say {
+
+   &__body {
+      display: flex;
+      padding-top: 80px;
+   }
+}
+
+.map {
+      flex: 1 1 50%;
+
+   &__top{justify-content: center;text-align: center;
+      
+      
+      
+   }
+
+
+   
+   &__title {
+      font-family: AkzidenzGroteskBQ-BdCnd;
+      font-size: 50px;
+      line-height: 25px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #000000;
+      margin-bottom: 30px;
+   }
+
+   &__adress {align-items: center;
+      display: flex;
+      
+      margin-bottom: 30px;
+      img{margin-right: 10px;
+      }
+   }
+
+   &__tel {align-items: center;
+      display: flex;
+      
+      margin-bottom: 30px;
+      img{margin-right: 10px;
+      }
+   }
+
+   &__location {
+      
+      img{width: 100%;}
+   }
+}
+.form {
+   flex: 1 1 50%;
+   &__mail {
+   }
+
+   &__socials {
+   }
+
+   &__form {
+      background-color: rgb(0, 0, 0);
+      flex-direction: column;
+      height: 100%;
+   }
+}
+.container {
+}

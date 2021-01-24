@@ -111,6 +111,10 @@ h6 {
   margin: 0 auto;
 }
 
+.header {
+  display: none;
+}
+
 .header .container {
   max-width: 870px;
   margin: 0 auto;
@@ -220,6 +224,10 @@ h6 {
   padding-top: 30px;
 }
 
+.private {
+  display: none;
+}
+
 .private__body-row {
   border: 1px solid #000;
 }
@@ -291,6 +299,7 @@ h6 {
 
 .catering {
   padding: 100px 0px;
+  display: none;
 }
 
 .catering .container {
@@ -364,7 +373,7 @@ h6 {
 }
 
 .why {
-  padding: 100px 0px;
+  padding-top: 100px;
   background-color: #c2c2c2;
 }
 
@@ -375,9 +384,6 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   background-color: black;
 }
 
@@ -392,6 +398,13 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #ffffff;
+}
+
+.top P span {
+  display: block;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
 }
 
 .top img {
@@ -415,6 +428,16 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
+}
+
+.item__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+.item__img img {
+  width: 100%;
 }
 
 .item__text {
@@ -442,6 +465,84 @@ h6 {
   line-height: 25px;
   font-weight: 400;
   color: #000000;
+}
+
+.say__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+}
+
+.map {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.map__top {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.map__title {
+  font-family: AkzidenzGroteskBQ-BdCnd;
+  font-size: 50px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.map__adress {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.map__adress img {
+  margin-right: 10px;
+}
+
+.map__tel {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.map__tel img {
+  margin-right: 10px;
+}
+
+.map__location img {
+  width: 100%;
+}
+
+.form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.form__form {
+  background-color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
 }
 
 @media (max-width: 1182px) {
