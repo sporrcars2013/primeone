@@ -34,7 +34,7 @@ section {
 html,
 body {
   height: 100%;
-  min-width: 320px;
+  min-width: 320;
 }
 
 body {
@@ -92,7 +92,6 @@ h6 {
 }
 
 .wrapper {
-  max-width: 1366px;
   width: 100%;
   min-height: 100%;
   overflow: hidden;
@@ -103,7 +102,6 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 auto;
 }
 
 ._container {
@@ -113,15 +111,6 @@ h6 {
 
 .header {
   display: none;
-}
-
-.header .container {
-  max-width: 870px;
-  margin: 0 auto;
-}
-
-.header__body {
-  padding: 40px 0px;
 }
 
 .header__top {
@@ -157,7 +146,7 @@ h6 {
   line-height: 25px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.0em;
+  letter-spacing: 1em;
   color: #000000;
   letter-spacing: 0.74em;
 }
@@ -185,10 +174,13 @@ h6 {
   padding-top: 20px;
 }
 
-.header__menu-logo img {
+.header__menu-logo {
   position: absolute;
   top: 0;
-  left: 38.5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .header__menu-link {
@@ -229,33 +221,46 @@ h6 {
 }
 
 .private__body-row {
-  border: 1px solid #000;
+  height: 100%;
 }
 
 .private__body-columns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 }
 
 .private__left-column {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.private__left-column img {
+  height: 100%;
+  display: block;
+  width: 100%;
 }
 
 .private__right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 80px 50px 75px 50px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   background-color: black;
-  padding: 80px 290px 0px 100px;
+  min-hight: 100%;
+  overflow: auto;
 }
 
 .private__title {
@@ -270,6 +275,7 @@ h6 {
   text-transform: uppercase;
   letter-spacing: -3px;
   color: #ffffff;
+  margin-bottom: 35px;
 }
 
 .private__subtitle {
@@ -278,7 +284,10 @@ h6 {
   line-height: 25px;
   font-weight: 400;
   color: #ffffff;
-  padding: 30px 0px 50px 0px;
+  margin-bottom: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .private__btns a {
@@ -554,6 +563,30 @@ h6 {
 @media (max-width: 991.98px) {
   ._container {
     max-width: 750px;
+  }
+}
+
+@media (max-width: 950px) {
+  .private__body-columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px 10px;
+    -webkit-box-shadow: 0px 10px 100px lime;
+            box-shadow: 0px 10px 100px lime;
+  }
+
+  .private__right-column {
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .private__subtitle {
+    padding: 0px 40px;
   }
 }
 

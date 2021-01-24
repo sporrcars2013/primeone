@@ -1,85 +1,82 @@
 .catering {
-padding: 100px 0px;
-display: none;
+	padding: 100px 0px;
+	display: none;
 
- .container {
-   max-width: 880px;
-margin: 0 auto;
+	.container {
+		max-width: 880px;
+		margin: 0 auto;
 
-   &__body {
-  
-}
-   }
+		&__body {
+		}
+	}
 
-   &__row {
-   }
+	&__row {
+	}
 
-   &__columns {
-   }
+	&__columns {
+	}
 }
 
 .column {
-   display: flex;
-flex: 1 1 25%;
-   &__item {  
-      
-   }
+	display: flex;
+	flex: 1 1 25%;
+	&__item {
+	}
 
-   &__image {
-      padding-bottom: 20px;
-   }
+	&__image {
+		padding-bottom: 20px;
+	}
 
-   &__title {
-      font-family: AkzidenzGroteskBQ-BdCnd;
-      font-size: 25px;
-      line-height: 25px;
-      font-weight: 400;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #000000;
-      padding-bottom: 30px;
-   }
+	&__title {
+		font-family: AkzidenzGroteskBQ-BdCnd;
+		font-size: 25px;
+		line-height: 25px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: #000000;
+		padding-bottom: 30px;
+	}
 
-   &__subtitle {
-      font-family: PTSans;
-      font-size: 15px;
-      line-height: 25px;
-      font-weight: 500;
-      color: #000000;
-      padding-bottom: 20px;
-   }
+	&__subtitle {
+		font-family: PTSans;
+		font-size: 15px;
+		line-height: 25px;
+		font-weight: 500;
+		color: #000000;
+		padding-bottom: 20px;
+	}
 
-   &__btn {margin-bottom: 20px;
-      a{
-         font-family: Bebas;
-         font-size: 15px;
-         line-height: 25px;
-         font-weight: 600;
-         text-transform: uppercase;
-         letter-spacing: 0.1em;
-         color: #000000;
-         padding: 20px 20px ;
-         
-      background-color: #fff;
-         &:hover{
-         background-color: rgb(0, 0, 0);
-         color: #fff;
-      }
-   }
-   }
+	&__btn {
+		margin-bottom: 20px;
+		a {
+			font-family: Bebas;
+			font-size: 15px;
+			line-height: 25px;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: #000000;
+			padding: 20px 20px;
 
-   &__link {
-      a{
-         color: #000000;
-         font-family: Bebas;
-         font-size: 15px;
-         line-height: 25px;
-         font-weight: 600;
-         text-decoration: underline;
-         text-transform: uppercase;
-         letter-spacing: 0.1em;
+			background-color: #fff;
+			&:hover {
+				background-color: rgb(0, 0, 0);
+				color: #fff;
+			}
+		}
+	}
 
-      }
-      
-   }
+	&__link {
+		a {
+			color: #000000;
+			font-family: Bebas;
+			font-size: 15px;
+			line-height: 25px;
+			font-weight: 600;
+			text-decoration: underline;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+		}
+	}
 }

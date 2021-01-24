@@ -1,16 +1,7 @@
 .header {
-<<<<<<< HEAD
-   display: none;
-=======
-	padding: 40px 0px;
-	.container {
-		max-width: 870px;
-		margin: 0 auto;
-	}
->>>>>>> b8e60c429addce4076b3de13a31358fdcbb75260
+	display: none;
 
 	&__body {
-
 	}
 
 	&__top {
@@ -65,11 +56,10 @@
 	}
 
 	&__menu-logo {
-			position: absolute;
-			top: 0;
-			left: 50%;
-			transform: translate(-50%,-50%);
-		
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	&__menu-link {
